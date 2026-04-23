@@ -39,7 +39,7 @@ def quick_sort(arr, low, high, first_pivot_idx=None):
 def main():
     global comparisons
     # Dataset dengan 8 elemen
-    original_data = [23, 52, 32, 34, 21, 12, 49, 29]
+    original_data = [4, 2, 9, 8, 0, 3, 1]
     n = len(original_data)
     
     print(sum(original_data)/n)
